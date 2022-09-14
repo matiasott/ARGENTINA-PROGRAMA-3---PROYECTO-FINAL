@@ -1,3 +1,62 @@
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
 #logoApp{
     width: 150px;
+    
+}
+
+img{
+    width: 40px;
+    margin-right: 5px;
+    margin-top: 5px;    
+}
+
+.botonl{
+    margin-right: 10px;
+    margin-top: 5px;  
+}
+
+.redes{
+    margin-right: 0.5em;
+}
+
+.btn{
+    border-width:medium;
+    float: right;
+    margin-right: 10px;
+    margin-bottom: 5px; 
+}
+
+/* para la vista de celular hace lo siguiente */
+@media(max-width:575px){
+    .container{
+        display: flex;
+    }
+    .redes{
+        display: flex;
+        align-items: center;
+    }
+    .redes img{
+        margin: 0.1em;
+        margin-top: 10px;
+    }
+
+    .botonl{
+        margin: 0.2em;        
+    }
+
+    .btn{
+        float: right;
+        margin-right: 10px;
+        margin-bottom: 5px; 
+    }
+
+    .logo{
+        margin-left: 5px;
+    }
+    
 }

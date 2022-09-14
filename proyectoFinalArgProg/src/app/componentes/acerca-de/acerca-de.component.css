@@ -1,0 +1,202 @@
+.row{
+    padding: 20px;
+}
+
+div{
+    background-color: black;
+    text-align: center;
+}
+
+hr{
+    color: #F3850E ;
+}
+
+@media(min-width: 920px){
+    #fotodeperfil{  
+        width:175px;
+        height:175px;      
+        position:absolute;
+        object-fit: cover;
+        border-radius: 100% ;
+        box-shadow: 3px 3px 3px rgb(255, 255, 255);
+        top: 250px;
+    }
+    /* etiqueta del nombre */
+    #nombre{
+        font-weight: bold;       
+        color: white;
+        font-size: 150%;
+    }
+    /* rango - lo que dice abajo del nombre */
+    #rango{
+        color: rgb(154, 154, 154);
+        font-size: 100%;
+    }
+
+    /* acerca titulo */
+    #acerca{
+        padding-top: 10px;
+        color: white;
+        font-size: 200%;
+        text-align: left;
+        margin-right: 3%;
+    }
+
+    /* acercaTexto */
+    #acerca_texto{
+        color: rgb(154, 154, 154);
+        font-size: 100%;
+        text-align: justify;
+    } 
+}
+@media(max-width: 920px){
+    @media(min-width: 768px){
+        #fotodeperfil{
+            width:175px;
+            height:175px;
+            position:relative;
+            object-fit: cover;
+            border-radius: 100% ;
+            box-shadow: 3px 3px 3px rgb(255, 255, 255);
+            top: -80px;
+            margin-left: 40px;
+        }
+    
+        #resuelveimg{
+            height: 100px;
+        }
+
+        /* etiqueta del nombre */
+        #nombre{
+            font-weight: bold;        
+            color: white;
+            font-size: 150%;
+            position:relative;
+            bottom: -50%;
+        }
+        /* rango - lo que dice abajo del nombre */
+        #rango{
+            color: rgb(154, 154, 154);
+            font-size: 100%;
+            position:relative;
+            bottom: -50%;
+        }
+    
+        /* acerca titulo */
+        #acerca{
+            padding-top: 10px;
+            color: white;
+            font-size: 200%;
+            text-align: left;
+            margin-right: 3%;
+        }
+    
+        /* acercaTexto */
+        #acerca_texto{
+            color: rgb(154, 154, 154);
+            font-size: 100%;
+            text-align: justify;
+        } 
+    }
+}
+
+@media(max-width: 768px){
+    @media(min-width: 576px){
+        #fotodeperfil{
+            width:175px;
+            height:175px;
+            position:relative;
+            object-fit: cover;
+            border-radius: 100% ;
+            box-shadow: 3px 3px 3px rgb(255, 255, 255);
+            top: -80px;
+        }
+    
+        #resuelveimg{
+            height: 100px;
+        }
+
+        /* etiqueta del nombre */
+        #nombre{
+            font-weight: bold;        
+            color: white;
+            font-size: 150%;
+        }
+        /* rango - lo que dice abajo del nombre */
+        #rango{
+            color: rgb(154, 154, 154);
+            font-size: 100%;
+        }
+    
+        /* acerca titulo */
+        #acerca{
+            padding-top: 10px;
+            color: white;
+            font-size: 200%;
+            text-align: left;
+            margin-right: 3%;
+        }
+    
+        /* acercaTexto */
+        #acerca_texto{
+            color: rgb(154, 154, 154);
+            font-size: 100%;
+            text-align: justify;
+        } 
+
+    }
+}
+
+@media(max-width: 575px){
+    #fotodeperfil{
+        width:175px;
+        height:175px;
+        position:relative;
+        object-fit: cover;
+        border-radius: 100% ;
+        box-shadow: 3px 3px 3px rgb(255, 255, 255);
+        top: -80px;
+    }
+
+    #resuelveimg{
+        height: 100px;
+    }
+
+    /* etiqueta del nombre */
+    #nombre{
+        font-weight: bold;
+        /* margin-top: 30%; */
+        color: white;
+        font-size: 150%;
+    }
+    /* rango - lo que dice abajo del nombre */
+    #rango{
+        color: rgb(154, 154, 154);
+        font-size: 100%;
+    }
+
+    /* acerca titulo */
+    #acerca{
+        padding-top: 10px;
+        color: white;
+        font-size: 200%;
+        text-align: left;
+    }
+
+    /* acercaTexto */
+    #acerca_texto{
+        color: rgb(154, 154, 154);
+        font-size: 100%;
+        text-align: justify;
+    }
+    
+}
+
+
+
+
+
+
+
+
+

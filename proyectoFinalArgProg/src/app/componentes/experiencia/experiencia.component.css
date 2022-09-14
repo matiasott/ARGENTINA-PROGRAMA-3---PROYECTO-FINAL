@@ -1,0 +1,26 @@
+.row{
+    padding: 20px;
+}
+div{
+    background: black;
+}
+
+h1{
+    font-size: 28px;
+}
+
+h2{
+    font-size: 22px;
+}
+h3{
+    font-size: 20px;
+}
+
+h1,h3,h2{
+    display: inline;
+    color: white;
+}
+p{
+    color: rgb(154, 154, 154);
+    margin-left: 20px;
+}

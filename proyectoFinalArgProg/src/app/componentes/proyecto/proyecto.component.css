@@ -1,0 +1,35 @@
+.row{
+    background-color: black;
+    padding: 20px;
+}
+
+.contenedor{
+    width: auto;
+    height: auto;
+    padding: 10%;
+}
+.parte1,.parte2{
+    display: inline-block;
+    text-align: justify;
+    vertical-align: middle;
+}
+
+.img-proyecto{
+    box-shadow: 10px 10px 10px #F3850E;
+}
+
+h1{
+    font-size: 28px;
+}
+
+h2{
+    font-size: 22px;
+}
+
+h1,h3,h2{
+    color: white;
+}
+
+p{
+    color: rgb(154, 154, 154);
+}

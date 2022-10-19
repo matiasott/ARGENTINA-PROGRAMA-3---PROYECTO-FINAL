@@ -4,6 +4,7 @@
 div{
     background: black;
 }
+
 h1{
     font-size: 28px;
 }
@@ -22,4 +23,13 @@ h1,h3,h2{
 p{
     color: rgb(154, 154, 154);
     margin-left: 20px;
+}
+
+td{
+    color: white;
+}
+
+.botonl{
+    margin-right: 10px;
+    margin-top: 5px;  
 }
